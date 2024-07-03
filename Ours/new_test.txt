@@ -1,0 +1,284 @@
+Training metapath2vec as initial author feature...
+
+  0%|          | 0/6611 [00:00<?, ?it/s]
+  4%|▎         | 243/6611 [00:00<00:02, 2424.72it/s]
+  9%|▊         | 564/6611 [00:00<00:02, 2885.35it/s]
+ 13%|█▎        | 886/6611 [00:00<00:01, 3037.08it/s]
+ 18%|█▊        | 1207/6611 [00:00<00:01, 3104.76it/s]
+ 23%|██▎       | 1529/6611 [00:00<00:01, 3145.74it/s]
+ 28%|██▊       | 1852/6611 [00:00<00:01, 3172.12it/s]
+ 33%|███▎      | 2175/6611 [00:00<00:01, 3190.42it/s]
+ 38%|███▊      | 2498/6611 [00:00<00:01, 3201.06it/s]
+ 43%|████▎     | 2821/6611 [00:00<00:01, 3209.87it/s]
+ 48%|████▊     | 3145/6611 [00:01<00:01, 3217.07it/s]
+ 52%|█████▏    | 3469/6611 [00:01<00:00, 3221.61it/s]
+ 57%|█████▋    | 3793/6611 [00:01<00:00, 3224.57it/s]
+ 62%|██████▏   | 4117/6611 [00:01<00:00, 3226.67it/s]
+ 67%|██████▋   | 4441/6611 [00:01<00:00, 3228.99it/s]
+ 72%|███████▏  | 4765/6611 [00:01<00:00, 3230.22it/s]
+ 77%|███████▋  | 5089/6611 [00:01<00:00, 3228.40it/s]
+ 82%|████████▏ | 5412/6611 [00:01<00:00, 3226.05it/s]
+ 87%|████████▋ | 5735/6611 [00:01<00:00, 3226.60it/s]
+ 92%|█████████▏| 6058/6611 [00:01<00:00, 3226.44it/s]
+ 97%|█████████▋| 6381/6611 [00:02<00:00, 3227.43it/s]
+100%|██████████| 6611/6611 [00:02<00:00, 3186.60it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+ 10%|█         | 1/10 [00:00<00:06,  1.47it/s]
+ 20%|██        | 2/10 [00:01<00:04,  1.72it/s]
+ 30%|███       | 3/10 [00:01<00:03,  1.77it/s]
+ 40%|████      | 4/10 [00:02<00:03,  1.79it/s]
+ 50%|█████     | 5/10 [00:02<00:02,  1.83it/s]
+ 60%|██████    | 6/10 [00:03<00:02,  1.80it/s]
+ 70%|███████   | 7/10 [00:03<00:01,  1.82it/s]
+ 80%|████████  | 8/10 [00:04<00:01,  1.83it/s]
+ 90%|█████████ | 9/10 [00:05<00:00,  1.80it/s]
+100%|██████████| 10/10 [00:05<00:00,  1.79it/s]
+100%|██████████| 10/10 [00:05<00:00,  1.79it/s]
+Start training GAT on cuda:0...
+epoch 1/100, loss: 0.56557
+NEW BEST PREDICTION!
+acc:0.9077, precision:0.8897, recall:0.9309, F1-Score: 0.90982, best: 0.90982, time: 73.95s
+epoch 2/100, loss: 0.15368
+NEW BEST PREDICTION!
+acc:0.9114, precision:0.8919, recall:0.9363, F1-Score: 0.91358, best: 0.91358, time: 68.99s
+epoch 3/100, loss: 0.10502
+NEW BEST PREDICTION!
+acc:0.9163, precision:0.9006, recall:0.9358, F1-Score: 0.91787, best: 0.91787, time: 69.60s
+epoch 4/100, loss: 0.08340
+acc:0.9136, precision:0.8978, recall:0.9335, F1-Score: 0.91530, best: 0.91787, time: 70.16s
+epoch 5/100, loss: 0.07186
+NEW BEST PREDICTION!
+acc:0.9195, precision:0.9101, recall:0.9309, F1-Score: 0.92037, best: 0.92037, time: 70.14s
+epoch 6/100, loss: 0.06477
+NEW BEST PREDICTION!
+acc:0.9209, precision:0.9129, recall:0.9306, F1-Score: 0.92165, best: 0.92165, time: 70.08s
+epoch 7/100, loss: 0.05995
+NEW BEST PREDICTION!
+acc:0.9238, precision:0.9124, recall:0.9376, F1-Score: 0.92483, best: 0.92483, time: 70.53s
+epoch 8/100, loss: 0.05664
+NEW BEST PREDICTION!
+acc:0.9241, precision:0.9151, recall:0.9350, F1-Score: 0.92495, best: 0.92495, time: 70.20s
+epoch 9/100, loss: 0.05321
+NEW BEST PREDICTION!
+acc:0.9248, precision:0.9166, recall:0.9346, F1-Score: 0.92553, best: 0.92553, time: 70.68s
+epoch 10/100, loss: 0.05125
+NEW BEST PREDICTION!
+acc:0.9269, precision:0.9170, recall:0.9389, F1-Score: 0.92781, best: 0.92781, time: 70.59s
+epoch 11/100, loss: 0.04894
+NEW BEST PREDICTION!
+acc:0.9292, precision:0.9242, recall:0.9351, F1-Score: 0.92960, best: 0.92960, time: 70.86s
+epoch 12/100, loss: 0.04758
+NEW BEST PREDICTION!
+acc:0.9297, precision:0.9225, recall:0.9383, F1-Score: 0.93031, best: 0.93031, time: 70.63s
+epoch 13/100, loss: 0.04626
+NEW BEST PREDICTION!
+acc:0.9311, precision:0.9223, recall:0.9414, F1-Score: 0.93179, best: 0.93179, time: 70.51s
+epoch 14/100, loss: 0.04520
+acc:0.9298, precision:0.9193, recall:0.9422, F1-Score: 0.93064, best: 0.93179, time: 70.75s
+epoch 15/100, loss: 0.04423
+NEW BEST PREDICTION!
+acc:0.9329, precision:0.9253, recall:0.9418, F1-Score: 0.93345, best: 0.93345, time: 71.00s
+epoch 16/100, loss: 0.04341
+acc:0.9325, precision:0.9256, recall:0.9405, F1-Score: 0.93300, best: 0.93345, time: 70.40s
+epoch 17/100, loss: 0.04230
+NEW BEST PREDICTION!
+acc:0.9342, precision:0.9283, recall:0.9412, F1-Score: 0.93471, best: 0.93471, time: 70.59s
+epoch 18/100, loss: 0.04131
+NEW BEST PREDICTION!
+acc:0.9341, precision:0.9252, recall:0.9445, F1-Score: 0.93476, best: 0.93476, time: 70.45s
+epoch 19/100, loss: 0.04040
+NEW BEST PREDICTION!
+acc:0.9366, precision:0.9320, recall:0.9419, F1-Score: 0.93692, best: 0.93692, time: 70.59s
+epoch 20/100, loss: 0.03968
+acc:0.9365, precision:0.9336, recall:0.9398, F1-Score: 0.93672, best: 0.93692, time: 70.35s
+epoch 21/100, loss: 0.03866
+NEW BEST PREDICTION!
+acc:0.9370, precision:0.9344, recall:0.9400, F1-Score: 0.93717, best: 0.93717, time: 70.61s
+epoch 22/100, loss: 0.03795
+NEW BEST PREDICTION!
+acc:0.9372, precision:0.9343, recall:0.9404, F1-Score: 0.93736, best: 0.93736, time: 70.37s
+epoch 23/100, loss: 0.03732
+NEW BEST PREDICTION!
+acc:0.9374, precision:0.9318, recall:0.9439, F1-Score: 0.93784, best: 0.93784, time: 70.60s
+epoch 24/100, loss: 0.03720
+acc:0.9376, precision:0.9348, recall:0.9408, F1-Score: 0.93781, best: 0.93784, time: 70.45s
+epoch 25/100, loss: 0.03661
+NEW BEST PREDICTION!
+acc:0.9402, precision:0.9368, recall:0.9441, F1-Score: 0.94045, best: 0.94045, time: 70.57s
+epoch 26/100, loss: 0.03618
+acc:0.9382, precision:0.9369, recall:0.9396, F1-Score: 0.93827, best: 0.94045, time: 70.37s
+epoch 27/100, loss: 0.03548
+acc:0.9387, precision:0.9342, recall:0.9439, F1-Score: 0.93898, best: 0.94045, time: 70.41s
+epoch 28/100, loss: 0.03514
+NEW BEST PREDICTION!
+acc:0.9410, precision:0.9365, recall:0.9460, F1-Score: 0.94126, best: 0.94126, time: 70.39s
+epoch 29/100, loss: 0.03500
+acc:0.9395, precision:0.9342, recall:0.9455, F1-Score: 0.93984, best: 0.94126, time: 70.07s
+epoch 30/100, loss: 0.03431
+acc:0.9410, precision:0.9405, recall:0.9415, F1-Score: 0.94101, best: 0.94126, time: 70.34s
+epoch 31/100, loss: 0.03349
+NEW BEST PREDICTION!
+acc:0.9426, precision:0.9391, recall:0.9466, F1-Score: 0.94282, best: 0.94282, time: 70.35s
+epoch 32/100, loss: 0.03301
+NEW BEST PREDICTION!
+acc:0.9426, precision:0.9349, recall:0.9514, F1-Score: 0.94309, best: 0.94309, time: 70.24s
+epoch 33/100, loss: 0.03268
+acc:0.9417, precision:0.9441, recall:0.9389, F1-Score: 0.94150, best: 0.94309, time: 70.36s
+epoch 34/100, loss: 0.03251
+acc:0.9430, precision:0.9422, recall:0.9439, F1-Score: 0.94304, best: 0.94309, time: 70.69s
+epoch 35/100, loss: 0.03204
+NEW BEST PREDICTION!
+acc:0.9433, precision:0.9405, recall:0.9464, F1-Score: 0.94343, best: 0.94343, time: 70.47s
+epoch 36/100, loss: 0.03190
+NEW BEST PREDICTION!
+acc:0.9439, precision:0.9390, recall:0.9495, F1-Score: 0.94424, best: 0.94424, time: 70.78s
+epoch 37/100, loss: 0.03157
+NEW BEST PREDICTION!
+acc:0.9441, precision:0.9389, recall:0.9500, F1-Score: 0.94443, best: 0.94443, time: 70.47s
+epoch 38/100, loss: 0.03150
+NEW BEST PREDICTION!
+acc:0.9446, precision:0.9415, recall:0.9480, F1-Score: 0.94476, best: 0.94476, time: 70.60s
+epoch 39/100, loss: 0.03094
+acc:0.9437, precision:0.9434, recall:0.9440, F1-Score: 0.94368, best: 0.94476, time: 70.81s
+epoch 40/100, loss: 0.03072
+NEW BEST PREDICTION!
+acc:0.9467, precision:0.9475, recall:0.9458, F1-Score: 0.94664, best: 0.94664, time: 70.94s
+epoch 41/100, loss: 0.02981
+acc:0.9457, precision:0.9400, recall:0.9521, F1-Score: 0.94601, best: 0.94664, time: 71.08s
+epoch 42/100, loss: 0.02929
+acc:0.9444, precision:0.9420, recall:0.9472, F1-Score: 0.94457, best: 0.94664, time: 70.63s
+epoch 43/100, loss: 0.02940
+acc:0.9464, precision:0.9442, recall:0.9487, F1-Score: 0.94648, best: 0.94664, time: 70.71s
+epoch 44/100, loss: 0.02919
+NEW BEST PREDICTION!
+acc:0.9465, precision:0.9438, recall:0.9496, F1-Score: 0.94669, best: 0.94669, time: 70.93s
+epoch 45/100, loss: 0.02890
+NEW BEST PREDICTION!
+acc:0.9469, precision:0.9482, recall:0.9454, F1-Score: 0.94679, best: 0.94679, time: 70.48s
+epoch 46/100, loss: 0.02894
+NEW BEST PREDICTION!
+acc:0.9476, precision:0.9479, recall:0.9472, F1-Score: 0.94756, best: 0.94756, time: 71.00s
+epoch 47/100, loss: 0.02870
+acc:0.9471, precision:0.9454, recall:0.9489, F1-Score: 0.94718, best: 0.94756, time: 70.78s
+epoch 48/100, loss: 0.02844
+acc:0.9468, precision:0.9476, recall:0.9458, F1-Score: 0.94671, best: 0.94756, time: 70.81s
+epoch 49/100, loss: 0.02854
+NEW BEST PREDICTION!
+acc:0.9474, precision:0.9437, recall:0.9514, F1-Score: 0.94757, best: 0.94757, time: 70.57s
+epoch 50/100, loss: 0.02840
+acc:0.9465, precision:0.9434, recall:0.9500, F1-Score: 0.94669, best: 0.94757, time: 70.51s
+epoch 51/100, loss: 0.02729
+acc:0.9472, precision:0.9424, recall:0.9526, F1-Score: 0.94749, best: 0.94757, time: 70.79s
+epoch 52/100, loss: 0.02692
+acc:0.9474, precision:0.9478, recall:0.9470, F1-Score: 0.94739, best: 0.94757, time: 70.54s
+epoch 53/100, loss: 0.02691
+NEW BEST PREDICTION!
+acc:0.9484, precision:0.9461, recall:0.9510, F1-Score: 0.94856, best: 0.94856, time: 71.06s
+epoch 54/100, loss: 0.02696
+NEW BEST PREDICTION!
+acc:0.9490, precision:0.9493, recall:0.9487, F1-Score: 0.94898, best: 0.94898, time: 70.92s
+epoch 55/100, loss: 0.02666
+acc:0.9484, precision:0.9471, recall:0.9498, F1-Score: 0.94844, best: 0.94898, time: 70.89s
+epoch 56/100, loss: 0.02689
+acc:0.9488, precision:0.9486, recall:0.9490, F1-Score: 0.94882, best: 0.94898, time: 70.97s
+epoch 57/100, loss: 0.02675
+acc:0.9477, precision:0.9466, recall:0.9489, F1-Score: 0.94774, best: 0.94898, time: 70.90s
+epoch 58/100, loss: 0.02653
+acc:0.9486, precision:0.9510, recall:0.9460, F1-Score: 0.94848, best: 0.94898, time: 71.06s
+epoch 59/100, loss: 0.02669
+acc:0.9477, precision:0.9451, recall:0.9505, F1-Score: 0.94781, best: 0.94898, time: 71.25s
+epoch 60/100, loss: 0.02660
+NEW BEST PREDICTION!
+acc:0.9496, precision:0.9501, recall:0.9490, F1-Score: 0.94955, best: 0.94955, time: 71.09s
+epoch 61/100, loss: 0.02544
+acc:0.9483, precision:0.9463, recall:0.9506, F1-Score: 0.94845, best: 0.94955, time: 71.31s
+epoch 62/100, loss: 0.02531
+NEW BEST PREDICTION!
+acc:0.9500, precision:0.9500, recall:0.9501, F1-Score: 0.95004, best: 0.95004, time: 71.35s
+epoch 63/100, loss: 0.02523
+NEW BEST PREDICTION!
+acc:0.9500, precision:0.9489, recall:0.9512, F1-Score: 0.95006, best: 0.95006, time: 71.31s
+epoch 64/100, loss: 0.02510
+acc:0.9494, precision:0.9506, recall:0.9482, F1-Score: 0.94935, best: 0.95006, time: 71.08s
+epoch 65/100, loss: 0.02514
+acc:0.9491, precision:0.9485, recall:0.9497, F1-Score: 0.94912, best: 0.95006, time: 70.98s
+epoch 66/100, loss: 0.02521
+acc:0.9496, precision:0.9453, recall:0.9544, F1-Score: 0.94982, best: 0.95006, time: 71.18s
+epoch 67/100, loss: 0.02500
+acc:0.9496, precision:0.9479, recall:0.9516, F1-Score: 0.94974, best: 0.95006, time: 71.66s
+epoch 68/100, loss: 0.02527
+acc:0.9495, precision:0.9472, recall:0.9521, F1-Score: 0.94964, best: 0.95006, time: 71.13s
+epoch 69/100, loss: 0.02502
+NEW BEST PREDICTION!
+acc:0.9498, precision:0.9446, recall:0.9556, F1-Score: 0.95009, best: 0.95009, time: 71.27s
+epoch 70/100, loss: 0.02518
+acc:0.9492, precision:0.9454, recall:0.9535, F1-Score: 0.94942, best: 0.95009, time: 71.18s
+epoch 71/100, loss: 0.02408
+NEW BEST PREDICTION!
+acc:0.9511, precision:0.9525, recall:0.9495, F1-Score: 0.95102, best: 0.95102, time: 70.99s
+epoch 72/100, loss: 0.02412
+acc:0.9502, precision:0.9492, recall:0.9514, F1-Score: 0.95027, best: 0.95102, time: 71.38s
+epoch 73/100, loss: 0.02404
+NEW BEST PREDICTION!
+acc:0.9509, precision:0.9480, recall:0.9541, F1-Score: 0.95104, best: 0.95104, time: 71.64s
+epoch 74/100, loss: 0.02402
+NEW BEST PREDICTION!
+acc:0.9510, precision:0.9489, recall:0.9533, F1-Score: 0.95108, best: 0.95108, time: 71.41s
+epoch 75/100, loss: 0.02405
+acc:0.9509, precision:0.9507, recall:0.9511, F1-Score: 0.95087, best: 0.95108, time: 71.44s
+epoch 76/100, loss: 0.02412
+acc:0.9505, precision:0.9486, recall:0.9526, F1-Score: 0.95062, best: 0.95108, time: 71.26s
+epoch 77/100, loss: 0.02413
+NEW BEST PREDICTION!
+acc:0.9513, precision:0.9497, recall:0.9531, F1-Score: 0.95141, best: 0.95141, time: 71.53s
+epoch 78/100, loss: 0.02403
+acc:0.9508, precision:0.9490, recall:0.9529, F1-Score: 0.95090, best: 0.95141, time: 71.79s
+epoch 79/100, loss: 0.02413
+acc:0.9497, precision:0.9460, recall:0.9538, F1-Score: 0.94987, best: 0.95141, time: 71.14s
+epoch 80/100, loss: 0.02424
+acc:0.9508, precision:0.9551, recall:0.9461, F1-Score: 0.95060, best: 0.95141, time: 71.64s
+epoch 81/100, loss: 0.02332
+NEW BEST PREDICTION!
+acc:0.9514, precision:0.9478, recall:0.9554, F1-Score: 0.95160, best: 0.95160, time: 71.57s
+epoch 82/100, loss: 0.02332
+NEW BEST PREDICTION!
+acc:0.9518, precision:0.9523, recall:0.9513, F1-Score: 0.95181, best: 0.95181, time: 71.73s
+epoch 83/100, loss: 0.02338
+NEW BEST PREDICTION!
+acc:0.9519, precision:0.9493, recall:0.9547, F1-Score: 0.95201, best: 0.95201, time: 71.28s
+epoch 84/100, loss: 0.02320
+acc:0.9517, precision:0.9503, recall:0.9534, F1-Score: 0.95182, best: 0.95201, time: 71.13s
+epoch 85/100, loss: 0.02316
+                                                                                                          loss: 0.02337
+acc:0.9501, precision:0.9485, recall:0.9519, F1-Score: 0.95020, best: 0.95201, time: 71.42s
+epoch 87/100, loss: 0.02337
+acc:0.9509, precision:0.9474, recall:0.9547, F1-Score: 0.95105, best: 0.95201, time: 71.57s
+epoch 88/100, loss: 0.02327
+acc:0.9513, precision:0.9508, recall:0.9518, F1-Score: 0.95132, best: 0.95201, time: 71.00s
+epoch 89/100, loss: 0.02341
+acc:0.9512, precision:0.9506, recall:0.9518, F1-Score: 0.95121, best: 0.95201, time: 71.08s
+epoch 90/100, loss: 0.02344
+acc:0.9510, precision:0.9524, recall:0.9495, F1-Score: 0.95095, best: 0.95201, time: 71.17s
+epoch 91/100, loss: 0.02283
+NEW BEST PREDICTION!
+acc:0.9518, precision:0.9474, recall:0.9567, F1-Score: 0.95203, best: 0.95203, time: 71.19s
+epoch 92/100, loss: 0.02267
+acc:0.9517, precision:0.9467, recall:0.9572, F1-Score: 0.95194, best: 0.95203, time: 71.07s
+epoch 93/100, loss: 0.02263
+NEW BEST PREDICTION!
+acc:0.9525, precision:0.9510, recall:0.9541, F1-Score: 0.95258, best: 0.95258, time: 71.63s
+epoch 94/100, loss: 0.02256
+acc:0.9513, precision:0.9479, recall:0.9551, F1-Score: 0.95145, best: 0.95258, time: 71.32s
+epoch 95/100, loss: 0.02246
+acc:0.9518, precision:0.9514, recall:0.9522, F1-Score: 0.95179, best: 0.95258, time: 71.31s
+epoch 96/100, loss: 0.02254
+acc:0.9515, precision:0.9474, recall:0.9561, F1-Score: 0.95174, best: 0.95258, time: 71.19s
+epoch 97/100, loss: 0.02287
+acc:0.9518, precision:0.9491, recall:0.9548, F1-Score: 0.95196, best: 0.95258, time: 70.84s
+epoch 98/100, loss: 0.02270
+acc:0.9518, precision:0.9463, recall:0.9579, F1-Score: 0.95206, best: 0.95258, time: 71.16s
+epoch 99/100, loss: 0.02279
+acc:0.9523, precision:0.9511, recall:0.9535, F1-Score: 0.95231, best: 0.95258, time: 71.23s
+epoch 100/100, loss: 0.02278
+acc:0.9507, precision:0.9498, recall:0.9517, F1-Score: 0.95073, best: 0.95258, time: 71.28s
